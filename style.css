@@ -1,0 +1,77 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column; /* Sắp xếp các phần tử theo chiều dọc */
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Cho phép xuống dòng khi cần */
+  max-width: 900px;
+  background:darkgray;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image-section {
+  max-width: 100%;
+  height: auto;
+
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+
+  object-fit: cover;
+}
+
+.footer-section {
+  width: 50%;
+  background: #5a605d;
+  padding: 30px;
+}
+
+.footer {
+  max-width: 900px;
+  background: white;
+  padding: 30px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 100%;
+  display: block; /* Đảm bảo nó là một block element */
+}
+
+.kinhnghiem-section {
+  width: 100%;
+}
+
+.kinhnghiem-section h1 {
+  color: #d84315;
+  border-bottom: 2px solid #d84315;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.kinhnghiem-section h2 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.kinhnghiem-section h3 {
+  font-size: 18px;
+  color: #555;
+}
+
+.kinhnghiem-section p {
+  color: #333;
+  margin: 5px 0;
+}
